@@ -5,7 +5,7 @@
 buildarch=8
 
 pkgname=uboot-rockpro64
-pkgver=2020.01
+pkgver=2022.01
 pkgrel=1
 pkgdesc="U-Boot for RockPro64"
 arch=('aarch64')
@@ -21,7 +21,7 @@ source=("ftp://ftp.denx.de/pub/u-boot/u-boot-${pkgver/rc/-rc}.tar.bz2"
         "git+https://github.com/ARM-software/arm-trusted-firmware.git"
         'boot.txt'
         'mkscr')
-md5sums=('b6b2e0787b6874e6b57da0a065a84f5a'
+md5sums=('49ba74a214d14c6340c8067bc1ed5fa0'
          'SKIP'
          '0a08740b6f3aef5465eadbbe6ccbbc8a'
          '021623a04afd29ac3f368977140cfbfd')
